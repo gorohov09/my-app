@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <App />
 );
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
 
